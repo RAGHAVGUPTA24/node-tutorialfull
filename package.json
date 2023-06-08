@@ -1,0 +1,25 @@
+{
+  "name": "nodetutorial",
+  "version": "1.0.0",
+  "description": "node js full tut",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/RAGHAVGUPTA24/centralrepodevops)"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "raghav",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "colors": "^1.4.0",
+    "pokemon": "^2.3.5",
+    "simple-node-logger": "^21.8.12"
+  }
+}
