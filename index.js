@@ -1,7 +1,7 @@
-const pokemon = require('pokemon');
-
-// console.log(pokemon.all());
-// console.log(pokemon.getName(147));
-
-console.log(pokemon.getId('Raichu'));
-console.log(pokemon.getName(222));
+const http = require('http')
+const data = require('./data')
+http.createServer((req, res) => {
+    res.writeHead(200, { 'Content-Type': 'application\json' });
+    res.write(JSON.stringify(data))
+    res.end();
+}).listen(4200)
